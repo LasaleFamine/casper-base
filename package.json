@@ -1,0 +1,16 @@
+{
+  "name": "casper-base",
+  "version": "0.0.1",
+  "description": "A CasperJs module with all necessary boilerprate to start writing a scraper",
+  "main": "main.js",
+  "scripts": {
+    "start": "casperjs main.js || true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessio Occhipinti @lasalefamine",
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.3",
+    "phantomjs": "^2.1.7"
+  }
+}

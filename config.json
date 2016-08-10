@@ -1,0 +1,9 @@
+{
+  "clientScripts":  [],
+  "pageSettings": {
+      "loadImages":  false,
+      "loadPlugins": false
+  },
+  "logLevel": "warning",
+  "verbose": true
+}

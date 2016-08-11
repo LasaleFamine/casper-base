@@ -14,7 +14,7 @@ So I'm trying to wrap every simple and almost full configurable piece of code to
 
 You can simply install via NPM, but the `require` will be a little bigger cause you will run it with *CasperJs* and not with *NodeJs*.
 
-    npm install LasaleFamine/casper-base
+    npm install casper-base
 
 Or clone the repo if you want start from here:  
 

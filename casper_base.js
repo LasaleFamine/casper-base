@@ -42,14 +42,11 @@ var utils = require('utils');
 var fs = require('fs');
 
 // Configuration json for casper.create
-var config = require('config.json');
+var config = require('./config.json');
 
 // CUSTOM Utils methods
-var log = require('custom-utils/casper_logging').log;
-var statusHandlers = require('custom-utils/casper_logging').statusHandlers;
-
-// Event handlers
-var setupEventHanlers = require('custom-utils/casper_events_filters');
+var log = require('./custom-utils/casper_logging').log;
+var statusHandlers = require('./custom-utils/casper_logging').statusHandlers;
 
 // Create an instance of CasperJs
 // Setup with configuration for logging and load faster
@@ -59,7 +56,8 @@ var casper = require('casper').create(config);
 
 // Setup http status handlers as upgrade of "options"
 casper.options.httpStatusHandlers = {
-    404: statusHandlers.notFound
+    404: statusHandlers.notFound,
+    400: statusHandlers.badRequest
 }
 
 

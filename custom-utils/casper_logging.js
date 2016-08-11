@@ -42,7 +42,7 @@ var log = {
  */
  var statusHandlers = {
    notFound: function(self, resource) {
-     log.logError(resource.status + ' @ ' + resource.url);
+     log.logWarn(resource.status + ' @ ' + resource.url);
    },
    badRequest: function(self, resource) {
      log.logError(resource.status + ' @ ' + resource.url);

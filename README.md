@@ -12,7 +12,11 @@ So I'm trying to wrap every simple and almost full configurable piece of code to
 
 ### Install  
 
-Clone the repo if you want start from here:  
+You can simply install via NPM, but the `require` will be a little bigger cause you will run it with *CasperJs* and not with *NodeJs*.
+
+    npm install LasaleFamine/casper-base
+
+Or clone the repo if you want start from here:  
 
     git clone https://github.com/LasaleFamine/casper-base.git
 
@@ -45,11 +49,39 @@ For more information about CasperJs configuration: [Casper Options](http://docs.
 
 ### Import
 
-Simply `require` for your casper instance the `casper_base` module:  
+Simply `require` for your casper instance the `casper_base` module.
+
+If was installed via NPM:
 
 ``` js
-  var casper = require('casper_base')
+  var casper = require('./node_modules/casper-base/casper_base')
 ```
+
+Or if the file is in your root directory:
+
+``` js
+  var casper = require('./casper_base')
+```
+**Don't forget to leave the `custom-utils` folder within the main `casper_base` with the current hierachy.**
+
+### Start scraping!  
+
+First install `casperjs` and `phantomjs` if you did't yet:
+
+    npm install --save casperjs phantomjs
+
+Write your first scrapy!
+
+``` js
+
+var casper = require('./casper_base')
+
+// Simulate error 404
+casper.start('http://google.com/sad')
+casper.run()
+
+```
+
 
 ### Fork it  
 

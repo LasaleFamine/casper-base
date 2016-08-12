@@ -1,5 +1,7 @@
 # casper-base | Utils for scraping the web with CasperJs  
-![Build](https://travis-ci.org/LasaleFamine/casper-base.svg?branch=master)  
+[![npm version](https://img.shields.io/npm/v/casper-base.svg)](http://npmjs.org/casper-base)
+[![npm downloads](https://img.shields.io/npm/dt/casper-base.svg)](http://npmjs.org/casper-base)
+[![Build Status](https://travis-ci.org/LasaleFamine/casper-base.svg?branch=1.0.0)](https://travis-ci.org/LasaleFamine/casper-base)  
 
 ![CasperJs](http://3.bp.blogspot.com/-LwoTEhFjHAY/VJltD6SOvkI/AAAAAAAAAX4/s3V8RIIwTYw/s1600/Casperjs-logo.PNG "CasperJs")
 

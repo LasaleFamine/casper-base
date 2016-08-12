@@ -6,12 +6,15 @@
   "repository": "https://github.com/LasaleFamine/casper-base",
   "scripts": {
     "start": "casperjs main.js || true",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "casperjs casper-test.js > log.txt && ava --verbose"
   },
   "author": "Alessio Occhipinti info@godev.space",
   "license": "ISC",
   "dependencies": {
     "casperjs": "^1.1.3",
     "phantomjs": "^2.1.7"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
   }
 }

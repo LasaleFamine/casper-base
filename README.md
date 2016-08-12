@@ -1,4 +1,5 @@
 # casper-base | Utils for scraping the web with CasperJs  
+![Build](https://travis-ci.org/LasaleFamine/casper-base.svg?branch=master)
 ![CasperJs](http://3.bp.blogspot.com/-LwoTEhFjHAY/VJltD6SOvkI/AAAAAAAAAX4/s3V8RIIwTYw/s1600/Casperjs-logo.PNG "CasperJs")
 
 A personal, simple module of [CasperJs](http://casperjs.org) for scraping the web!  

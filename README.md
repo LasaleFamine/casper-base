@@ -7,10 +7,15 @@
 
 A personal, simple module of [CasperJs](http://casperjs.org) for scraping the web!  
 
+# IMPORTANT
+
+>**This is a dedicated branch to Raspberry Pi installation compatibility.  
+The only difference is that Phantomjs is not inside the dependencies because you [need another version](https://github.com/spfaffly/phantomjs-linux-armv6l) of it and installed globally on your Pi.**
+
 ## Explanation  
 
 Turned out that there are some configurations (and some utils) that I always needed (re)writing a scraper in CasperJs.
-So I'm trying to wrap every simple and almost full configurable piece of code to start new projects from here and not totally from scratch or with copy-paste.  
+So I'm trying to wrap every simple and almost full configurable piece of code to start new projects from here and not totally from scratch or with copy-paste.
 
 ## Usage   
 
